@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" class="contactForm">
+      <label for="" >
+        Full name
+        <input
+          type="text"
+          name="fullName"
+          id="fullName"
+          placeholder="e.g Chinedu"
+        />
+      </label>
+
+      <label for="">
+        Email
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="JohnDoe@gmail"
+        />
+      </label>
+
+      <!-- <input type="text" name="password" id="password" /> -->
+
+      <label for="">
+        Message
+        <textarea
+          name="message"
+          id="message"
+          rows="10"
+          cols="10"
+          placeholder="message"
+        ></textarea>
+      </label>
+
+      <button class="submitBtn">Submit</button>
+
+      <p class="error-message" id="errorMessage"></p>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>

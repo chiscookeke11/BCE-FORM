@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+    padding: 60px 30px;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: aqua;
+    padding: 40px 20px ;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+#fullName, #email, #message, #password{
+    width: 100%;
+    padding: 12px 16px;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+.submitBtn{
+    background-color: orange;
+    padding: 16px 30px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.error-message{
+    color: red;
+}
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
